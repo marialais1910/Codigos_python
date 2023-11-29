@@ -1,0 +1,10 @@
+rendimento = float(input('Qual é o rendimento da lata? '))
+altura = float(input('Qual é a altura da parede? '))
+largura = float(input('Qual é a altura da parede? '))
+
+def calculo_tinta():
+    area = altura * largura
+    total = area / rendimento
+    print(f'Voce precisa de {total} latas de tinta')
+
+calculo_tinta()
