@@ -1,22 +1,11 @@
-# Temperatura-Carne
-Código python para descobrir o ponto da carne do cliente
+Projects using Python
 
-temp_cel =int(input('Qual a temperatura da carne'))
+In this case, I'll show you some basic python projects with various functions.
 
-if temp_cel < 48:
-  print('Precisa cozinhar por mais tempo')
+Projects taken from the course Python: from basic to advanced + 32 real projects.
 
-elif temp_cel in range(48, 53):
-  print('Selada')
+What's the PYTHON?
 
-elif temp_cel in range(54, 59):
-    print('Ao ponto para o mal')
+Python is a back-end programming language. Web developers can use Python code to transfer data to and from servers, interact with databases and manage the security of a website. There are many Python frameworks frequently used in web development, such as: Django
 
-elif temp_cel in range(60, 64):
-   print('Ao ponto')
-
-elif temp_cel in range(65, 70):
-    print('Ao ponto para o bem')
-
-elif temp_cel >=71:
-    print('bem passada')
+Being a beginner, I coded everything in Replit
